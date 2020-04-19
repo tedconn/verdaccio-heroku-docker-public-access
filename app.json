@@ -1,7 +1,7 @@
 {
-  "name": "verdaccio-github-oauth",
-  "description": "A private npm registry authenticated with github oauth",
-  "repository": "https://github.com/autotelic/verdaccio-heroku-docker",
+  "name": "verdaccio-github-oauth-public-access",
+  "description": "A public access npm registry authenticated with github oauth",
+  "repository": "https://github.com/beeman/verdaccio-heroku-docker-public-access",
   "keywords": ["verdaccio", "docker", "npm"],
   "stack": "container"
 }

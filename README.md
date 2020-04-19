@@ -1,6 +1,11 @@
 # verdaccio-heroku-docker
 
-A containerized verdaccio private npm registry configured with github oauth.
+A containerized verdaccio public access npm registry configured with github oauth.
+
+This is a fork of [autotelic/verdaccio-heroku-docker](https://github.com/autotelic/verdaccio-heroku-docker) that
+sets the default access level to `$all` instead of `$authenticated`.
+
+This will show all packages to anybody.  
 
 ## Deployment
 
