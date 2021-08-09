@@ -1,4 +1,4 @@
-FROM verdaccio/verdaccio
+FROM verdaccio/verdaccio:4
 
 USER root
 
