@@ -16,7 +16,3 @@ packages:
     publish: $authenticated
 logs:
   - {type: stdout, format: pretty, level: http}
-middlewares:
-  github-oauth-ui:
-    client-id: GITHUB_OAUTH_CLIENT_ID
-    client-secret: GITHUB_OAUTH_CLIENT_SECRET
