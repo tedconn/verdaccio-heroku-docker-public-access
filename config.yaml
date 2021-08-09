@@ -1,7 +1,7 @@
 storage: ./storage
 auth:
-  github-oauth-ui:
-    org: GITHUB_OAUTH_ORG
+  htpasswd:
+    file: ./htpasswd
 uplinks:
   npmjs:
     url: https://registry.npmjs.org/
