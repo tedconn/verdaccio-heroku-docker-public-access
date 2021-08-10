@@ -6,13 +6,9 @@ uplinks:
   npmjs:
     url: https://registry.npmjs.org/
 packages:
-  '@*/*':
-    access: $all
-    publish: $authenticated
-    proxy: npmjs
   '**':
     proxy: npmjs
-    access: $all
+    access: igalia
     publish: $authenticated
 logs:
   - {type: stdout, format: pretty, level: http}
